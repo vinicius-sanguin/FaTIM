@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">FaTIM</title>
+  <desc id="desc">Marca simples do calendário litúrgico FaTIM.</desc>
+  <rect width="512" height="512" rx="96" fill="#053d75"/>
+  <circle cx="256" cy="256" r="176" fill="#ffffff"/>
+  <path d="M256 116v280M166 202h180" fill="none" stroke="#053d75" stroke-width="42" stroke-linecap="round"/>
+  <path d="M160 354c54-44 138-44 192 0" fill="none" stroke="#c9a227" stroke-width="34" stroke-linecap="round"/>
+</svg>

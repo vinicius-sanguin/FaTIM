@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#053d75">
+    <meta name="description" content="Página da FaTIM com acesso à plataforma, portal do aluno, blog e anuário litúrgico.">
+    <title>Início - FaTIM</title>
+
+    <link rel="icon" href="FATIM_Logo_AZUL.png" type="image/png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="fatim-icon-192.png">
+    <script src="pwa.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="FaTIM - Início">
+        <img
+          class="brand__logo"
+          src="FATIM_Logo_AZUL.png"
+          alt=""
+          width="72"
+          height="72"
+        >
+        <span class="brand__name">FaTIM</span>
+      </a>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Principal">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="blog.html">Blog</a>
+        <a href="http://fatim.eadplataforma.app" target="_blank" rel="noopener noreferrer">Plataforma</a>
+        <a href="anuario-liturgico.html?hoje=1">Anuário Litúrgico</a>
+        <a href="https://fatim.eadplataforma.app/login" target="_blank" rel="noopener noreferrer">Portal do Aluno</a>
+      </nav>
+
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <p class="section-kicker">Faculdade de Teologia da Igreja Metodista</p>
+          <h1 id="hero-title">Bem-vindo a FaTIM</h1>
+          <a class="hero__download" href="edital-ingresso-2026.pdf" download="edital-ingresso-2026.pdf">Edital de Ingresso 2026</a>
+        </div>
+      </section>
+
+      <section class="social-section" aria-labelledby="social-title">
+        <div class="section-heading">
+          <p class="section-kicker">Comunidade</p>
+          <h2 id="social-title">Siga-nos</h2>
+        </div>
+
+        <ul class="social-buttons" aria-label="Redes sociais da FaTIM">
+          <li>
+            <a
+              class="social-button"
+              href="https://www.facebook.com/fateo.metodista"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="facebook.svg" alt="" aria-hidden="true">
+              <span>Facebook</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="social-button"
+              href="https://www.instagram.com/fatim.oficial/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="instagram.svg" alt="" aria-hidden="true">
+              <span>Instagram</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="social-button"
+              href="https://www.youtube.com/@FaTIM-Metodista?sub_confirmation=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="youtube.svg" alt="" aria-hidden="true">
+              <span>YouTube</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-contact" aria-label="Fale conosco">
+        <span class="footer-contact__title">Fale conosco</span>
+        <a class="footer-contact__button footer-contact__button--email" href="mailto:contato@fatim.org.br" aria-label="Enviar e-mail para a FaTIM">
+          <img src="email.svg" alt="" aria-hidden="true" width="20" height="20">
+        </a>
+        <a class="footer-contact__button footer-contact__button--whatsapp" href="https://wa.me/5511914347478" target="_blank" rel="noopener noreferrer" aria-label="Falar com a FaTIM pelo WhatsApp">
+          <img src="whatsapp.svg" alt="" aria-hidden="true" width="20" height="20">
+        </a>
+      </div>
+    </footer>
+
+  </body>
+</html>

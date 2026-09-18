@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#004B84">
+    <meta name="description" content="Anuário litúrgico da Faculdade de Teologia da Igreja Metodista, offline e instalável.">
+    <link rel="icon" href="FATIM_Logo_AZUL.png" type="image/png">
+    <link rel="manifest" href="anuario-liturgico.webmanifest">
+    <link rel="apple-touch-icon" href="fatim-icon-192.png">
+    <link rel="stylesheet" href="styles.css?v=18">
+    <title>Anuário Litúrgico FaTIM</title>
+  </head>
+  <body class="anuario-page">
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="FaTIM - Início">
+        <img class="brand__logo" src="FATIM_Logo_AZUL.png" alt="" width="72" height="72">
+        <span class="brand__name">FaTIM</span>
+      </a>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Principal">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="blog.html">Blog</a>
+        <a href="http://fatim.eadplataforma.app" target="_blank" rel="noopener noreferrer">Plataforma</a>
+        <a href="anuario-liturgico.html?hoje=1" aria-current="page">Anuário Litúrgico</a>
+        <a href="https://fatim.eadplataforma.app/login" target="_blank" rel="noopener noreferrer">Portal do Aluno</a>
+      </nav>
+
+    </header>
+
+    <main class="anuario-main" id="conteudo">
+      <section class="app-shell" aria-label="Anuário Litúrgico FaTIM">
+        <header class="app-header">
+          <div class="brand-block" aria-label="Anuário Litúrgico FaTIM">
+            <img class="brand-logo" src="fatim-logo.png" alt="" aria-hidden="true" width="500" height="500">
+            <div>
+              <p>Faculdade de Teologia da Igreja Metodista</p>
+              <h1>
+                <span>Anuário Litúrgico</span>
+                <span class="liturgical-year-badge" id="liturgicalYearBadge">Ano A</span>
+              </h1>
+            </div>
+          </div>
+        </header>
+
+        <div id="appRoot" class="app-main" aria-live="polite"></div>
+
+        <nav class="bottom-nav" aria-label="Visualizações do calendário">
+          <button type="button" data-nav-view="day">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="5" y="4" width="14" height="16" rx="2"></rect>
+              <path d="M8 8h8M8 12h8M8 16h5"></path>
+            </svg>
+            <span>Dia</span>
+          </button>
+          <button type="button" data-nav-view="week">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+              <path d="M8 5v14M16 5v14M3 10h18"></path>
+            </svg>
+            <span>Semana</span>
+          </button>
+          <button type="button" data-nav-view="month">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="17" rx="2"></rect>
+              <path d="M8 2v4M16 2v4M3 9h18M8 13h.01M12 13h.01M16 13h.01M8 17h.01M12 17h.01M16 17h.01"></path>
+            </svg>
+            <span>Mês</span>
+          </button>
+        </nav>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-contact" aria-label="Fale conosco">
+        <span class="footer-contact__title">Fale conosco</span>
+        <a class="footer-contact__button footer-contact__button--email" href="mailto:contato@fatim.org.br" aria-label="Enviar e-mail para a FaTIM">
+          <img src="email.svg" alt="" aria-hidden="true" width="20" height="20">
+        </a>
+        <a class="footer-contact__button footer-contact__button--whatsapp" href="https://wa.me/5511914347478" target="_blank" rel="noopener noreferrer" aria-label="Falar com a FaTIM pelo WhatsApp">
+          <img src="whatsapp.svg" alt="" aria-hidden="true" width="20" height="20">
+        </a>
+      </div>
+    </footer>
+
+    <script src="liturgical-data.js"></script>
+    <script src="anuario-liturgico.js?v=18"></script>
+  </body>
+</html>
