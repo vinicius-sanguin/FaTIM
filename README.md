@@ -54,12 +54,12 @@ Altere `styles.css` para ajustar cores, fontes, espaçamentos e aparência.
 
 O bloco `<summary>` apresenta a publicação; ao clicar nele, o leitor abre ou fecha o texto. As publicações de exemplo devem ser substituídas pelo conteúdo definitivo.
 
-### Edital de Ingresso 2026
+### Edital de Ingresso 2027
 
 Coloque o PDF na mesma pasta de `index.html`, com o nome exato:
 
 ```text
-edital-ingresso-2026.pdf
+edital-ingresso-2027.pdf
 ```
 
 O link da página inicial já está configurado com o atributo `download`. O PDF deve ser fornecido separadamente; sem ele, o link não terá um arquivo para baixar.
